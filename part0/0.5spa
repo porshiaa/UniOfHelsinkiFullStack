@@ -1,0 +1,8 @@
+title 0.5 spa
+
+browser->server: HTTP GET  https://fullstack-exampleapp.herokuapp.com/spa
+
+server-->browser: HTML-code
+note over server:
+html includes js and css etc
+end note

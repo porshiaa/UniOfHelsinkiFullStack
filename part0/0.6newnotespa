@@ -1,0 +1,14 @@
+title 0.6 new note spa
+note over browser: user clicks submit button
+browser->server: HTTP POST  https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over browser:
+POST request including
+note as json-data with 
+content and date
+end note
+server-->browser: Status code 201
+note over browser:
+browser stays on the 
+same page with no redirect
+or reload
+end note
